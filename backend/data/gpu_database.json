@@ -1,0 +1,24 @@
+{
+  "gpus": {
+    "GTX 1060": 6, "GTX 1070": 8, "GTX 1080": 8, "GTX 1080 Ti": 11,
+    "RTX 2050": 4, "RTX 2060": 6, "RTX 2060 Super": 8,
+    "RTX 2070": 8, "RTX 2070 Super": 8,
+    "RTX 2080": 8, "RTX 2080 Super": 8, "RTX 2080 Ti": 11,
+    "RTX 3050": 8, "RTX 3050 Ti": 4, "RTX 3060": 12, "RTX 3060 Ti": 8,
+    "RTX 3070": 8, "RTX 3070 Ti": 8,
+    "RTX 3080": 10, "RTX 3080 Ti": 12, "RTX 3090": 24,
+    "RTX 4050": 6, "RTX 4060": 8, "RTX 4060 Ti": 16,
+    "RTX 4070": 12, "RTX 4070 Super": 12, "RTX 4070 Ti": 12,
+    "RTX 4080": 16, "RTX 4090": 24,
+    "RTX 5070": 12, "RTX 5080": 16, "RTX 5090": 32,
+    "RTX 3050 Laptop": 4, "RTX 3060 Laptop": 6,
+    "RTX 4060 Laptop": 8, "RTX 4070 Laptop": 8,
+    "MX450": 2, "MX550": 2,
+    "M1": 8, "M1 Pro": 16, "M1 Max": 32,
+    "M2": 8, "M2 Pro": 16, "M2 Max": 32,
+    "M3": 8, "M3 Pro": 18, "M3 Max": 36,
+    "RX 6600": 8, "RX 6700 XT": 12,
+    "RX 6800 XT": 16, "RX 7600": 8,
+    "RX 7700 XT": 12, "RX 7900 XTX": 24
+  }
+}

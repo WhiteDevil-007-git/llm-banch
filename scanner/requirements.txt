@@ -1,0 +1,5 @@
+psutil
+nvidia-ml-py
+requests
+pyperclip
+pyinstaller
