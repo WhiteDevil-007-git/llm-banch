@@ -1,0 +1,1041 @@
+{
+  "models": [
+    {
+      "name": "Llama 3.2",
+      "family": "llama",
+      "params_b": 3.0,
+      "context_length": 128000,
+      "licence": "Meta Llama 3",
+      "tasks": [
+        "chat",
+        "summarization",
+        "qa"
+      ],
+      "hf_model_id": "meta-llama/Llama-3.2-3B",
+      "ollama_tag": "llama3.2",
+      "description": "85.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 2.0,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 30.0,
+          "est_tps_mid": 66.0,
+          "est_tps_cpu": 9.6,
+          "ollama_url": "ollama pull llama3.2:q4_k_m",
+          "hf_url": "https://huggingface.co/meta-llama/Llama-3.2-3B",
+          "gguf_url": "https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/llama3.2-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 2.5,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 24.0,
+          "est_tps_mid": 54.0,
+          "est_tps_cpu": 7.2,
+          "ollama_url": "ollama pull llama3.2:q5_k_m",
+          "hf_url": "https://huggingface.co/meta-llama/Llama-3.2-3B",
+          "gguf_url": "https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/llama3.2-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 3.3,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 18.0,
+          "est_tps_mid": 42.0,
+          "est_tps_cpu": 4.8,
+          "ollama_url": "ollama pull llama3.2:q8_0",
+          "hf_url": "https://huggingface.co/meta-llama/Llama-3.2-3B",
+          "gguf_url": "https://huggingface.co/meta-llama/Llama-3.2-3B/resolve/main/llama3.2-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 297715,
+      "likes": 1010,
+      "quality_score": 0.5
+    },
+    {
+      "name": "Qwen 2.5",
+      "family": "qwen",
+      "params_b": 7.0,
+      "context_length": 32768,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat",
+        "coding",
+        "multilingual"
+      ],
+      "hf_model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "ollama_tag": "qwen2.5",
+      "description": "41.9M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.7,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull qwen2.5:q4_k_m",
+          "hf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+          "gguf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/qwen2.5-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 5.4,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull qwen2.5:q5_k_m",
+          "hf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+          "gguf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/qwen2.5-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 8.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull qwen2.5:q8_0",
+          "hf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+          "gguf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/qwen2.5-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 8097130,
+      "likes": 2416,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Phi 4",
+      "family": "phi",
+      "params_b": 14.0,
+      "context_length": 16384,
+      "licence": "MIT",
+      "tasks": [
+        "chat",
+        "coding",
+        "qa"
+      ],
+      "hf_model_id": "microsoft/phi-4",
+      "ollama_tag": "phi4",
+      "description": "7.7M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n1 year ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 8.5,
+          "min_vram_gb": 8,
+          "rec_vram_gb": 10,
+          "min_ram_gb": 16,
+          "rec_ram_gb": 32,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 33.0,
+          "est_tps_cpu": 4.8,
+          "ollama_url": "ollama pull phi4:q4_k_m",
+          "hf_url": "https://huggingface.co/microsoft/phi-4",
+          "gguf_url": "https://huggingface.co/microsoft/phi-4/resolve/main/phi4-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 15.6,
+          "min_vram_gb": 8,
+          "rec_vram_gb": 10,
+          "min_ram_gb": 16,
+          "rec_ram_gb": 32,
+          "est_tps_low": 9.0,
+          "est_tps_mid": 21.0,
+          "est_tps_cpu": 2.4,
+          "ollama_url": "ollama pull phi4:q8_0",
+          "hf_url": "https://huggingface.co/microsoft/phi-4",
+          "gguf_url": "https://huggingface.co/microsoft/phi-4/resolve/main/phi4-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 389842,
+      "likes": 2316,
+      "quality_score": 0.72
+    },
+    {
+      "name": "Mistral 7B",
+      "family": "mistral",
+      "params_b": 7.0,
+      "context_length": 32768,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat",
+        "summarization",
+        "qa"
+      ],
+      "hf_model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "ollama_tag": "mistral",
+      "description": "33.8M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n1 year ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull mistral:q4_k_m",
+          "hf_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+          "gguf_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/mistral-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 4.8,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull mistral:q5_k_m",
+          "hf_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+          "gguf_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/mistral-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.7,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull mistral:q8_0",
+          "hf_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+          "gguf_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/mistral-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 2122798,
+      "likes": 3730,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Gemma 2",
+      "family": "gemma",
+      "params_b": 9.0,
+      "context_length": 8192,
+      "licence": "Gemma",
+      "tasks": [
+        "chat",
+        "summarization"
+      ],
+      "hf_model_id": "google/gemma-2-9b",
+      "ollama_tag": "gemma2",
+      "description": "34.3M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 5.4,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull gemma2:q4_k_m",
+          "hf_url": "https://huggingface.co/google/gemma-2-9b",
+          "gguf_url": "https://huggingface.co/google/gemma-2-9b/resolve/main/gemma2-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 6.2,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull gemma2:q5_k_m",
+          "hf_url": "https://huggingface.co/google/gemma-2-9b",
+          "gguf_url": "https://huggingface.co/google/gemma-2-9b/resolve/main/gemma2-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 9.8,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull gemma2:q8_0",
+          "hf_url": "https://huggingface.co/google/gemma-2-9b",
+          "gguf_url": "https://huggingface.co/google/gemma-2-9b/resolve/main/gemma2-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 35379,
+      "likes": 741,
+      "quality_score": 0.66
+    },
+    {
+      "name": "DeepSeek R1",
+      "family": "deepseek",
+      "params_b": 7.0,
+      "context_length": 65536,
+      "licence": "MIT",
+      "tasks": [
+        "chat",
+        "coding",
+        "qa"
+      ],
+      "hf_model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "ollama_tag": "deepseek-r1",
+      "description": "93.5M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n1 year ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.7,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull deepseek-r1:q4_k_m",
+          "hf_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "gguf_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/resolve/main/deepseek-r1-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 8.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull deepseek-r1:q8_0",
+          "hf_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "gguf_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/resolve/main/deepseek-r1-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 292809,
+      "likes": 904,
+      "quality_score": 0.62
+    },
+    {
+      "name": "LLaVA",
+      "family": "llava",
+      "params_b": 7.0,
+      "context_length": 4096,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat",
+        "vision"
+      ],
+      "hf_model_id": "liuhaotian/llava-v1.6-mistral-7b",
+      "ollama_tag": "llava",
+      "description": "15.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.7,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull llava:q4_k_m",
+          "hf_url": "https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b",
+          "gguf_url": "https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b/resolve/main/llava-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 5.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull llava:q5_k_m",
+          "hf_url": "https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b",
+          "gguf_url": "https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b/resolve/main/llava-Q5_K_M.gguf"
+        }
+      ],
+      "downloads_last_month": 9800,
+      "likes": 246,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Code Llama",
+      "family": "llama",
+      "params_b": 7.0,
+      "context_length": 16384,
+      "licence": "Meta Llama 2",
+      "tasks": [
+        "coding"
+      ],
+      "hf_model_id": "meta-llama/CodeLlama-7b-Instruct-hf",
+      "ollama_tag": "codellama",
+      "description": "6.8M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 3.8,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull codellama:q4_k_m",
+          "hf_url": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf",
+          "gguf_url": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf/resolve/main/codellama-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 4.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull codellama:q5_k_m",
+          "hf_url": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf",
+          "gguf_url": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf/resolve/main/codellama-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.2,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull codellama:q8_0",
+          "hf_url": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf",
+          "gguf_url": "https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf/resolve/main/codellama-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 1751,
+      "likes": 64,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Llama 3.1",
+      "family": "llama",
+      "params_b": 8.0,
+      "context_length": 128000,
+      "licence": "Meta Llama 3",
+      "tasks": [
+        "chat",
+        "summarization",
+        "qa"
+      ],
+      "hf_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "ollama_tag": "llama3.1",
+      "description": "120.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n1 year ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.9,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull llama3.1:q4_k_m",
+          "hf_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "gguf_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/llama3.1-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 5.7,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull llama3.1:q5_k_m",
+          "hf_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "gguf_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/llama3.1-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 8.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull llama3.1:q8_0",
+          "hf_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "gguf_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/main/llama3.1-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 6191157,
+      "likes": 8285,
+      "quality_score": 0.64
+    },
+    {
+      "name": "TinyLlama",
+      "family": "llama",
+      "params_b": 1.1,
+      "context_length": 2048,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat"
+      ],
+      "hf_model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "ollama_tag": "tinyllama",
+      "description": "6M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 0.6,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 30.0,
+          "est_tps_mid": 66.0,
+          "est_tps_cpu": 9.6,
+          "ollama_url": "ollama pull tinyllama:q4_k_m",
+          "hf_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+          "gguf_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tinyllama-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 1.1,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 18.0,
+          "est_tps_mid": 42.0,
+          "est_tps_cpu": 4.8,
+          "ollama_url": "ollama pull tinyllama:q8_0",
+          "hf_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+          "gguf_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tinyllama-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 1293574,
+      "likes": 1842,
+      "quality_score": 0.42
+    },
+    {
+      "name": "Orca Mini",
+      "family": "orca",
+      "params_b": 3.0,
+      "context_length": 4096,
+      "licence": "CC-BY-NC-4.0",
+      "tasks": [
+        "chat",
+        "qa"
+      ],
+      "hf_model_id": "pankajmathur/orca_mini_3b",
+      "ollama_tag": "orca-mini",
+      "description": "3.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 1.9,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 30.0,
+          "est_tps_mid": 66.0,
+          "est_tps_cpu": 9.6,
+          "ollama_url": "ollama pull orca-mini:q4_k_m",
+          "hf_url": "https://huggingface.co/pankajmathur/orca_mini_3b",
+          "gguf_url": "https://huggingface.co/pankajmathur/orca_mini_3b/resolve/main/orca-mini-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 3.1,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 18.0,
+          "est_tps_mid": 42.0,
+          "est_tps_cpu": 4.8,
+          "ollama_url": "ollama pull orca-mini:q8_0",
+          "hf_url": "https://huggingface.co/pankajmathur/orca_mini_3b",
+          "gguf_url": "https://huggingface.co/pankajmathur/orca_mini_3b/resolve/main/orca-mini-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 295,
+      "likes": 165,
+      "quality_score": 0.5
+    },
+    {
+      "name": "Vicuna",
+      "family": "llama",
+      "params_b": 7.0,
+      "context_length": 4096,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat"
+      ],
+      "hf_model_id": "lmsys/vicuna-7b-v1.5",
+      "ollama_tag": "vicuna",
+      "description": "1.3M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 3.8,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull vicuna:q4_k_m",
+          "hf_url": "https://huggingface.co/lmsys/vicuna-7b-v1.5",
+          "gguf_url": "https://huggingface.co/lmsys/vicuna-7b-v1.5/resolve/main/vicuna-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.0,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull vicuna:q8_0",
+          "hf_url": "https://huggingface.co/lmsys/vicuna-7b-v1.5",
+          "gguf_url": "https://huggingface.co/lmsys/vicuna-7b-v1.5/resolve/main/vicuna-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 77444,
+      "likes": 406,
+      "quality_score": 0.62
+    },
+    {
+      "name": "WizardCoder",
+      "family": "wizard",
+      "params_b": 7.0,
+      "context_length": 16384,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "coding"
+      ],
+      "hf_model_id": "WizardLMTeam/WizardCoder-Python-7B-V1.0",
+      "ollama_tag": "wizardcoder",
+      "description": "1.4M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.2,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull wizardcoder:q4_k_m",
+          "hf_url": "https://huggingface.co/WizardLMTeam/WizardCoder-Python-7B-V1.0",
+          "gguf_url": "https://huggingface.co/WizardLMTeam/WizardCoder-Python-7B-V1.0/resolve/main/wizardcoder-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.8,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull wizardcoder:q8_0",
+          "hf_url": "https://huggingface.co/WizardLMTeam/WizardCoder-Python-7B-V1.0",
+          "gguf_url": "https://huggingface.co/WizardLMTeam/WizardCoder-Python-7B-V1.0/resolve/main/wizardcoder-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 0,
+      "likes": 0,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Stable Code",
+      "family": "stable",
+      "params_b": 3.0,
+      "context_length": 16384,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "coding"
+      ],
+      "hf_model_id": "stabilityai/stable-code-3b",
+      "ollama_tag": "stable-code",
+      "description": "1.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 1.6,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 30.0,
+          "est_tps_mid": 66.0,
+          "est_tps_cpu": 9.6,
+          "ollama_url": "ollama pull stable-code:q4_k_m",
+          "hf_url": "https://huggingface.co/stabilityai/stable-code-3b",
+          "gguf_url": "https://huggingface.co/stabilityai/stable-code-3b/resolve/main/stable-code-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 2.9,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 18.0,
+          "est_tps_mid": 42.0,
+          "est_tps_cpu": 4.8,
+          "ollama_url": "ollama pull stable-code:q8_0",
+          "hf_url": "https://huggingface.co/stabilityai/stable-code-3b",
+          "gguf_url": "https://huggingface.co/stabilityai/stable-code-3b/resolve/main/stable-code-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 6680,
+      "likes": 669,
+      "quality_score": 0.5
+    },
+    {
+      "name": "Phi 3",
+      "family": "phi",
+      "params_b": 3.8,
+      "context_length": 128000,
+      "licence": "MIT",
+      "tasks": [
+        "chat",
+        "coding",
+        "qa"
+      ],
+      "hf_model_id": "microsoft/Phi-3-mini-4k-instruct",
+      "ollama_tag": "phi3",
+      "description": "18.2M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 2.2,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull phi3:q4_k_m",
+          "hf_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+          "gguf_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/resolve/main/phi3-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q5_K_M",
+          "size_gb": 2.8,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 20.0,
+          "est_tps_mid": 45.0,
+          "est_tps_cpu": 6.0,
+          "ollama_url": "ollama pull phi3:q5_k_m",
+          "hf_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+          "gguf_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/resolve/main/phi3-Q5_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 4.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull phi3:q8_0",
+          "hf_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+          "gguf_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/resolve/main/phi3-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 366650,
+      "likes": 1468,
+      "quality_score": 0.52
+    },
+    {
+      "name": "SmolLM2",
+      "family": "smollm",
+      "params_b": 1.7,
+      "context_length": 8192,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat"
+      ],
+      "hf_model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "ollama_tag": "smollm2",
+      "description": "4.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n1 year ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 1.0,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 30.0,
+          "est_tps_mid": 66.0,
+          "est_tps_cpu": 9.6,
+          "ollama_url": "ollama pull smollm2:q4_k_m",
+          "hf_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "gguf_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/resolve/main/smollm2-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 1.8,
+          "min_vram_gb": 2,
+          "rec_vram_gb": 4,
+          "min_ram_gb": 4,
+          "rec_ram_gb": 8,
+          "est_tps_low": 18.0,
+          "est_tps_mid": 42.0,
+          "est_tps_cpu": 4.8,
+          "ollama_url": "ollama pull smollm2:q8_0",
+          "hf_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "gguf_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/resolve/main/smollm2-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 220025,
+      "likes": 762,
+      "quality_score": 0.45
+    },
+    {
+      "name": "InternLM2",
+      "family": "internlm",
+      "params_b": 7.0,
+      "context_length": 32768,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat",
+        "coding",
+        "multilingual"
+      ],
+      "hf_model_id": "internlm/internlm2_5-7b-chat",
+      "ollama_tag": "internlm2",
+      "description": "1.1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull internlm2:q4_k_m",
+          "hf_url": "https://huggingface.co/internlm/internlm2_5-7b-chat",
+          "gguf_url": "https://huggingface.co/internlm/internlm2_5-7b-chat/resolve/main/internlm2-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 8.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull internlm2:q8_0",
+          "hf_url": "https://huggingface.co/internlm/internlm2_5-7b-chat",
+          "gguf_url": "https://huggingface.co/internlm/internlm2_5-7b-chat/resolve/main/internlm2-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 34374,
+      "likes": 202,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Neural Chat",
+      "family": "intel",
+      "params_b": 7.0,
+      "context_length": 32768,
+      "licence": "Intel",
+      "tasks": [
+        "chat"
+      ],
+      "hf_model_id": "Intel/neural-chat-7b-v3-3",
+      "ollama_tag": "neural-chat",
+      "description": "1.2M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull neural-chat:q4_k_m",
+          "hf_url": "https://huggingface.co/Intel/neural-chat-7b-v3-3",
+          "gguf_url": "https://huggingface.co/Intel/neural-chat-7b-v3-3/resolve/main/neural-chat-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull neural-chat:q8_0",
+          "hf_url": "https://huggingface.co/Intel/neural-chat-7b-v3-3",
+          "gguf_url": "https://huggingface.co/Intel/neural-chat-7b-v3-3/resolve/main/neural-chat-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 14530,
+      "likes": 83,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Starling LM",
+      "family": "starling",
+      "params_b": 7.0,
+      "context_length": 8192,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat"
+      ],
+      "hf_model_id": "Nexusflow/Starling-LM-7B-beta",
+      "ollama_tag": "starling-lm",
+      "description": "1M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull starling-lm:q4_k_m",
+          "hf_url": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
+          "gguf_url": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta/resolve/main/starling-lm-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull starling-lm:q8_0",
+          "hf_url": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
+          "gguf_url": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta/resolve/main/starling-lm-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 1811,
+      "likes": 344,
+      "quality_score": 0.62
+    },
+    {
+      "name": "Dolphin Mistral",
+      "family": "mistral",
+      "params_b": 7.0,
+      "context_length": 32768,
+      "licence": "Apache 2.0",
+      "tasks": [
+        "chat"
+      ],
+      "hf_model_id": "cognitivecomputations/dolphin-2.9-llama3-8b",
+      "ollama_tag": "dolphin-mistral",
+      "description": "1.8M\n\u00a0Downloads\n\n\n\n\n\nUpdated\u00a0\n2 years ago",
+      "quants": [
+        {
+          "quant": "Q4_K_M",
+          "size_gb": 4.1,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 25.0,
+          "est_tps_mid": 55.0,
+          "est_tps_cpu": 8.0,
+          "ollama_url": "ollama pull dolphin-mistral:q4_k_m",
+          "hf_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+          "gguf_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b/resolve/main/dolphin-mistral-Q4_K_M.gguf"
+        },
+        {
+          "quant": "Q8_0",
+          "size_gb": 7.5,
+          "min_vram_gb": 4,
+          "rec_vram_gb": 6,
+          "min_ram_gb": 8,
+          "rec_ram_gb": 16,
+          "est_tps_low": 15.0,
+          "est_tps_mid": 35.0,
+          "est_tps_cpu": 4.0,
+          "ollama_url": "ollama pull dolphin-mistral:q8_0",
+          "hf_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+          "gguf_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b/resolve/main/dolphin-mistral-Q8_0.gguf"
+        }
+      ],
+      "downloads_last_month": 4040,
+      "likes": 516,
+      "quality_score": 0.62
+    }
+  ]
+}
